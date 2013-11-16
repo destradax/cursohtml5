@@ -4,6 +4,7 @@
 }
 
 header{
+	width: 100%;
 	text-align: center;
 	background-color: yellow;
 	padding-top: 10px;
@@ -19,6 +20,7 @@ header h1{
 }
 
 nav{
+	width: 100%;
 	overflow: hidden;
 	background-color: #660033;
 	padding-top: 15px;
