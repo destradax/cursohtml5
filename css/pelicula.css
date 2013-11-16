@@ -1,0 +1,33 @@
+section{
+	overflow: hidden;
+}
+article p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+img#pelicula{
+	float: left;
+	margin-right: 20px;
+}
+@media screen and (max-width:1000px){
+	
+}
+
+@media screen and (max-width:700px){
+	
+}
+
+@media screen and (max-width:480px){
+	img#pelicula{
+		clear: both;
+		display: block;
+		width: 440px;
+	}
+	article p{
+		clear: both;
+		display: block;
+	}
+	iframe{
+		width: 440px;
+	}
+}

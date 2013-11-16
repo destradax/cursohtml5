@@ -1,0 +1,37 @@
+section{
+	overflow: hidden;
+}
+article.character{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	width: 280px;
+	float: left;
+	margin-left: 15px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+	background-color: #FFF;
+	margin-top: 15px;
+}
+img#characters{
+	width: 960px;
+}
+@media screen and (max-width:1000px){
+	
+}
+
+@media screen and (max-width:700px){
+	img#characters{
+		width: 660px;
+	}
+}
+
+@media screen and (max-width:480px){
+	img#characters{
+		width: 440px;
+	}
+	article.character{
+		margin-left: 0px;
+		width: 430px;
+	}
+}
