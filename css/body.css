@@ -4,10 +4,10 @@
 }
 
 header{
-	height: 100px;
 	text-align: center;
 	background-color: yellow;
 	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 header h1{
@@ -89,9 +89,6 @@ footer{
 }
 
 @media screen and (max-width:480px){
-	header{
-		height: 60px;
-	}
 	header h1{
 		font-size: 40px;
 	}
