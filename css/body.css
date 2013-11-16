@@ -19,9 +19,10 @@ header h1{
 }
 
 nav{
-	height: 55px;
+	overflow: hidden;
 	background-color: #660033;
 	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 nav ul{
@@ -92,12 +93,7 @@ footer{
 	header h1{
 		font-size: 40px;
 	}
-	nav{
-		height: 200px;
-	}
 	nav ul li{
-		clear: both;
-		display: block;
 		margin-bottom: 10px;
 	}
 	section{
